@@ -10,6 +10,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
+<<<<<<< HEAD
 function displayMessage(msg) {
   document.getElementById("greeting").innerText = msg;
 }
@@ -27,5 +28,21 @@ function greet(timeStr) {
   if ( hour < 12) return "Good Morning"
   if ( hour > 17) return "Good Evening"
   return "Good Afternoon"
+=======
+function greet(){
+  if((timeString.split(1);)<12)
+  {
+    console.log("Good Morning");
+
+  }else if (((timeString.split(1);)<12 ) && (timeString.split(1);  )>5  )
+        {
+          console.log("Good Afternoon");
+
+        }else if((timeString.split(1);)>5)
+              {
+                console.log("Good Evening");
+              }
+return timeString;
+>>>>>>> 0bc4b0c0a2ac54e72be86d55d339db967f71c8ca
 }
 /* Write your implementation of displayMessage() */
